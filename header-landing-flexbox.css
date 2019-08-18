@@ -1,0 +1,13 @@
+.cover{
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg') no-repeat 30% center/cover; /* === a betöltött kép középvonalát elcsúsztatja 20%al balra (50% a közép, 1% a bal kezdő 100% a jobb szél) === */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center; /* a képernyő hosszában középre rendezi az elemeket*/
+  justify-content: center; /* a képernyő széltében középre rendezi az elemeket*/
+  text-align: center; /* a szöveget középre rendezi*/
+}
+
+.wrapper{
+  padding: 0 5rem; /* === a wrapper szöveg kapjon egy belső margót a képernyőn === */
+}
